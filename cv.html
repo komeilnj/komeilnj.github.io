@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<script>
+    function copyEmail() {
+        navigator.clipboard.writeText("k.najafi@ph.iut.ac.ir").then(function() {
+            alert("Email copied to clipboard!");
+        }, function(err) {
+            alert("Failed to copy email: " + err);
+        });
+    }
+</script>
+<body>
+    <div class="sidebar">
+        <h2>Komeil Najafi</h2>
+        <img src="komeil.jpg" alt="Profile Photo" class="profile-photo">
+        <h2>My CV</h2>
+        <nav>
+            <a href="about.html">About me</a>
+            <a href="cv.html">CV</a>
+            <a href="certificates.html">Certificates</a>
+            <a href="contact.html">Contact</a>
+            <button class="email-button" onclick="copyEmail()">Email</button>
+        </nav>
+    </div>
+    <div class="content">
+        <header>
+            <h1>Curriculum Vitae</h1>
+        </header>
+        <section>
+            <h2>Education</h2>
+            <ul>
+                <li>M.Sc in Physics (2022–Present) - Isfahan University of Technology, Isfahan, Iran</li>
+                <li>B.Sc in Physics (2018–2022) - Isfahan University of Technology, Isfahan, Iran</li>
+            </ul>
+
+            <h2>Research Interests</h2>
+            <ul>
+                <li>Quantum Technology specificly the Quantum sensing </li>
+                <li>Quantum Information,  Gravity Gradiometry, Spin Systems, Quantum Programming</li>
+                <li>Cosmology and Quantum Optics</li>
+            </ul>
+
+            <h2>Projects</h2>
+            <ul>
+                <li>M.Sc Project: Study on gravimetry, gradiometry, and magnonic systems for gravitational change sensing supervised by Dr. M. Zarei</li>
+                <li>B.Sc Project: Study on Friedmann’s space-time, supervised by Dr. F. Loran</li>
+            </ul>
+
+            <h2>Publications</h2>
+            <ul>
+                <li>Sensing Gravitational Gradients with a Magnonic System (In Progress) </li>
+                <li> It is about Using magnons in a YIG sphere in a microwave cavity to detect gravity gradients.</li>
+            </ul>
+
+            <h2>Course Projects</h2>
+            <ul>
+                <li>Cosmology: Talk on Kruskal diagrams of black holes</li>
+                <li>Electrodynamics: Analysis of flight without propulsion through electrogravity</li>
+                <li>Astrophysics: General virial theorem for modified gravity (MOND)</li>
+                <li>Quantum Mechanics: Removing splash effect on the photon in quantum mechanics</li>
+            </ul>
+
+            <h2>Working Experience</h2>
+            <ul>
+                <li>Programming (Fall 2020): Developed a game app for kids that rewarded players with discount codes.</li>
+            </ul>
+
+            <h2>Computer Skills</h2>
+            <ul>
+                <li>Software: Word, PowerPoint, Excel, LaTeX, Mathematica</li>
+                <li>Programming Languages: Python, Java, C++, XML, HTML/CSS, Android, Kotlin</li>
+            </ul>
+
+            <h2>Teaching Assistant</h2>
+            <ul>
+                <li>Electricity Laboratory (Fall 2023): At the Physics Faculty, Isfahan University of Technology</li>
+            </ul>
+
+            <h2>Conferences and Workshops</h2>
+            <h3>Organized</h3>
+            <ul>
+                <li>Winter 2024: The First Winter School of Quantum Technologies</li>
+                <li>Spring 2023: National Conference on Quantum Technologies</li>
+            </ul>
+            <h3>Attended</h3>
+            <ul>
+                <li>Summer 2024: Nordita Summer School in Quantum Chaos, Dissipation, and Information (Poster on gravity gradient sensing)</li>
+                <li>ICPS (Talk on quantum gravity gradiometers)</li>
+                <li>Winter 2024: Second Workshop of Quantum Technology (Qiskit Academy, Tehran)</li>
+            </ul>
+
+            <h2>Online Courses</h2>
+            <ul>
+                <li>Aria Quanta (Quantum Computing and Quantum Machine Learning)</li>
+                <li>University of Maryland (Exploring Quantum Physics on Coursera)</li>
+                <li>École Polytechnique (Quantum Optics I & II)</li>
+            </ul>
+
+            <h2>Languages</h2>
+            <ul>
+                <li>Native: Persian</li>
+                <li>Fluent: English</li>
+            </ul>
+
+            <footer>
+                <p>Download Options:</p>
+                <ul>
+                    <li><a href="download/cv.pdf" download>Full CV</a></li>
+                    <li><a href="download/abstract of thesis.pdf" download>Thesis Abstract</a></li>
+                    <li><a href="download/Komeil_recommendation_letter 1.pdf" download>Recommendation Letter 1</a></li>
+                    <li><a href="download/Komeil_recommendation_letter 2.pdf" download>Recommendation Letter 2</a></li>
+                </ul>
+            </footer>
+        </section>
+    </div>
+</body>
+</html>
+

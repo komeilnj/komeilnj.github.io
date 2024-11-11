@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<script>
+    function copyEmail() {
+        navigator.clipboard.writeText("k.najafi@ph.iut.ac.ir").then(function() {
+            alert("Email copied to clipboard!");
+        }, function(err) {
+            alert("Failed to copy email: " + err);
+        });
+    }
+</script>
+<body>
+    <div class="sidebar">
+        <h2>Komeil Najafi</h2>
+        <img src="komeil.jpg" alt="Profile Photo" class="profile-photo">
+        <h2>Contact</h2>
+        <nav>
+            <a href="about.html">About me</a>
+            <a href="cv.html">CV</a>
+            <a href="certificates.html">Certificates</a>
+            <a href="contact.html">Contact</a>
+            <button class="email-button" onclick="copyEmail()">Email</button>
+            
+        </nav>
+    </div>
+    <div class="content">
+        <header>
+            <h1>Contact</h1>
+        </header>
+        <section>
+            <h2>Contact Information</h2>
+            <p><strong>Email:</strong> <span onclick="copyEmail()" style="cursor: pointer; color: blue;">k.najafi@ph.iut.ac.ir</span></p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/komeil-najafi" target="_blank" style="color: blue;">linkedin.com/in/komeil-najafi</a></p>
+            <p>Feel free to reach out via email or connect with me on LinkedIn.</p>
+        </section>
+    </div>
+</body>
+</html>
+

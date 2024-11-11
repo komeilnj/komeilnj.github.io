@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<script>
+    function copyEmail() {
+        navigator.clipboard.writeText("k.najafi@ph.iut.ac.ir").then(function() {
+            alert("Email copied to clipboard!");
+        }, function(err) {
+            alert("Failed to copy email: " + err);
+        });
+    }
+</script>
+<body>
+    <div class="sidebar">
+        <h2>Komeil Najafi</h2>
+        <img src="komeil.jpg" alt="Profile Photo" class="profile-photo">
+        <h3>About Me</h3>
+        <nav>
+            <a href="about.html">About me</a>
+            <a href="cv.html">CV</a>
+            <a href="certificates.html">Certificates</a>
+            <a href="contact.html">Contact</a>
+            <button class="email-button" onclick="copyEmail()">Email</button>
+        </nav>
+    </div>
+    <div class="content">
+        <header>
+            <h1>About Me</h1>
+        </header>
+        <section>
+            <h2>Biography</h2>
+            <p>I am a quantum technology researcher with a background in cosmology and general relativity, which sparked my fascination with foundational physics. </p>
+            <p>Currently, as a Master’s student, my research focuses on quantum sensing through spin systems in magnonic platforms, giving me hands-on experience in quantum interactions, magnons, and spin waves. </p>
+            <p>I am finalizing a draft paper on quantum sensing, which has refined my theoretical modeling skills. </p>
+            <p>I am particularly drawn to the study of massive quantum systems within quantum information theory and quantum optics, especially in exploring quantum coherence and entanglement in large resonators. Equipped with programming experience in Python, I am eager to deepen my expertise in quantum sensing, gravity gradiometry, and spin systems, applying these insights to advance quantum information theory and quantum optics in a collaborative research environment.</p>
+        </section>
+    </div>
+</body>
+</html>

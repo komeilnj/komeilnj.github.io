@@ -1,0 +1,199 @@
+
+body {
+    font-family: 'ADLaMDisplay-Regular', sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+}
+@font-face {
+    font-family: 'BAHNSCHRIFT';
+    src: url('fonts/BAHNSCHRIFT.woff2') format('woff2'),
+         url('fonts/BAHNSCHRIFT.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ADLaMDisplay-Regular';
+    src: url('fonts/ADLaMDisplay-Regular.woff2') format('woff2'),
+         url('fonts/ADLaMDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    font-family: 'BAHNSCHRIFT', sans-serif;
+    background-color: #333;
+    color: white;
+    padding-top: 20px;
+}
+
+.sidebar h2 {
+    text-align: center;
+    font-family: 'BAHNSCHRIFT', sans-serif;
+}
+.sidebar h3 {
+    text-align: center;
+    font-family: 'BAHNSCHRIFT', sans-serif;
+}
+
+.sidebar img.profile-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 15px;
+}
+
+
+.sidebar nav a,
+.sidebar .email-button {
+    display: block;
+        width: 90%; /* Consistent width for links and buttons */
+        margin: 10px auto; /* Center horizontally */
+        padding: 12px 0; /* Vertically center text and provide padding */
+        background-color: #444;
+        color: white;
+        font-family: 'BAHNSCHRIFT', sans-serif;
+        text-align: center;
+        border-radius: 20px; /* Rounded corners */
+        text-decoration: none;
+        font-size: 1.1em;
+        transition: background-color 0.3s ease;
+}
+
+.sidebar nav a:hover,
+.sidebar .email-button:hover {
+    background-color: #575757; /* Darker shade on hover */
+}
+
+
+
+
+.content {
+    margin-left: 270px;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+.certificate-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    font-size: 0.9em; /* Set font size */
+    font-weight: bold; /* Bold text for emphasis */
+    color: #333; /* Dark color for readability */
+    text-align: center; /* Center the text */
+    font-family: 'ADLaMDisplay-Regular', sans-serif;
+    margin-top: 10px; /* Space between image and text */
+    border-radius: 8px; /* Rounded corners to match the image */
+    padding: 10px; /* Padding around the text */
+    background-color: #f5f5f5; /* Light background color */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+    padding: 15px;
+    text-align: center;
+}
+.certificate-card p {
+    width: 50%;
+    font-size: 1em; /* Set font size */
+    font-weight: bold; /* Bold text for emphasis */
+    color: #333; /* Dark color for readability */
+    text-align: center; /* Center the text */
+    font-family: 'ADLaMDisplay-Regular', sans-serif;
+    margin: 10px auto ; /* Space between image and text */
+  
+}
+.certificate-card img  {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.certificate-card p {
+    margin-top: 10px;
+    color: #555;
+}
+.email-button {
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+  
+  .content {
+    flex: 1;
+    padding: 40px;
+    overflow-y: auto;
+  }
+  
+  .content header h1 {
+    font-size: 2em;
+    color: #3a3a8b;
+    margin-bottom: 20px;
+  }
+  
+  .content section h2 {
+    font-size: 1.5em;
+    color: #3a3a8b;
+    border-bottom: 2px solid #3a3a8b;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+  }
+
+  .content section p {
+    font-size: 1.2em;
+    color: #3a3a8b;
+    margin-bottom: 20px;
+  }
+  
+  .content section ul {
+    list-style: none;
+    padding-left: 0;
+    line-height: 1.8;
+  }
+  
+  .content section ul li {
+    padding: 5px 0;
+    font-size: 1em;
+  }
+  
+  footer p {
+    font-size: 1.1em;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  footer ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  footer ul li a {
+    text-decoration: none;
+    color: #3a3a8b;
+    background-color: #f0f0f5;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  footer ul li a:hover {
+    background-color: #d1d1e0;
+  }
+  

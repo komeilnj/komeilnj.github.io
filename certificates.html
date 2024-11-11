@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificates</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<script>
+    function copyEmail() {
+        navigator.clipboard.writeText("k.najafi@ph.iut.ac.ir").then(function() {
+            alert("Email copied to clipboard!");
+        }, function(err) {
+            alert("Failed to copy email: " + err);
+        });
+    }
+</script>
+<body>
+    <div class="sidebar">
+        <h2>Komeil Najafi</h2>
+        <img src="komeil.jpg" alt="Profile Photo" class="profile-photo">
+        <h2>Certificates</h2>
+        <nav>
+            <a href="about.html">About me</a>
+            <a href="cv.html">CV</a>
+            <a href="certificates.html">Certificates</a>
+            <a href="contact.html">Contact</a>
+            <button class="email-button" onclick="copyEmail()">Email</button>
+        </nav>
+    </div>
+    <div class="content">
+        <header>
+            <h1>Certificates</h1>
+        </header>
+        <section>
+            <div class="certificate-card">
+                <img src="certificate/certificate_1.png" alt="Certificate 1">
+                <p>I have participated in the introductory programming training that was conducted by the Corpi engineering team for 12 hours.</p>
+            </div>
+            <div class="certificate-card">
+                <img src="certificate/certificate_2.png" alt="Certificate 1">
+                <p>I have participated in the comprehensive course on "QuantumComputing" from February 21st to April 19th, 2024,
+                    organized by the Aria Quanta Quantum Computing Center</p>
+            </div>
+            <div class="certificate-card">
+                <img src="certificate/certificate_3.jpg" alt="Certificate 1">
+                <p>I organized and attended the Quantum School of Technologies for 15 educational hours from January 27 to January 29, 2024.</p>
+            </div>
+            <div class="certificate-card">
+                <img src="certificate/certificate_4.jpg" alt="Certificate 1">
+                <p>I talked about quantum gravity gradiometers at free University of Georgia at the International Conference of Physics Students (ICPS) 2024</p>
+            </div>
+           
+            </div>
+        </section>
+    </div>
+</body>
+</html>

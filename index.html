@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Profile | Komeil Najafi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<script>
+    function copyEmail() {
+        navigator.clipboard.writeText("k.najafi@ph.iut.ac.ir").then(function() {
+            alert("Email copied to clipboard!");
+        }, function(err) {
+            alert("Failed to copy email: " + err);
+        });
+    }
+</script>
+
+<body>
+    <div class="sidebar">
+        <h2>Komeil Najafi</h2>
+        <img src="komeil.jpg" alt="Profile Photo" class="profile-photo">
+       
+        <h2>My Academic Profile</h2>
+        <nav>
+            <a href="about.html">About me</a>
+            <a href="cv.html">CV</a>
+            <a href="certificates.html">Certificates</a>
+            <a href="contact.html">Contact</a>
+            <button class="email-button" onclick="copyEmail()">Email</button>
+        </nav>
+    </div>
+    <div class="content">
+        <header>
+            <h1>Welcome to My Academic Profile</h1>
+        </header>
+        <section>
+            <h2>Introduction</h2>
+            <p>Welcome! I’m Komeil Najafi, a researcher with a passion for quantum technology, cosmology, and quantum information theory. This website provides an overview of my academic journey, research projects, and professional achievements. Please feel free to explore and learn more about my work and interests.</p>
+        </section>
+        <section>
+            <h2>Explore My Work</h2>
+            <p>Navigate through the sections to find my detailed CV, certificates, and contact information. I am always open to new connections and opportunities, so don't hesitate to reach out!</p>
+        </section>
+    </div>
+</body>
+</html>
